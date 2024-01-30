@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Demo">
+      <class name="dropdowns.GetFirstLastMethod">
         <methods>
-          <include name="dropDownSelectTest"/>
+          <include name="closeBrowser"/>
+          <include name="allselected"/>
+          <include name="first"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- webdriver.Demo -->
+      </class> <!-- dropdowns.GetFirstLastMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
